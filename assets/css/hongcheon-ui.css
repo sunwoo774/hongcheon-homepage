@@ -1,0 +1,52 @@
+/* Colour and interaction only; keep Gapyeong layout and type scale. */
+#hero.hub-hero-simple{background:#f7f6f1!important}
+#hero .text-gradient{background:linear-gradient(100deg,#3d695e,#577768)!important;background-clip:text!important;-webkit-background-clip:text!important;color:transparent!important;-webkit-text-fill-color:transparent!important}
+.hub-eyebrow{color:#526e60!important}.hub-link{color:#3f6557!important}
+.hub-button.primary,.hub-sticky a:not(.kakao){background:#345c51!important;color:#fff!important}
+.hub-section.soft,#cta{background:#f2f5f0!important}.hub-inline-cta{background:#eef4ef;border-color:#d6e2d8}
+.hub-inline-cta strong,.hub-section h2,.hub-cost-intro h2{color:#2c463d!important}
+.hub-card,.hub-mini,.hub-fold{border-color:#dce2d9}.hub-service-icon,.hub-service-list summary:before{color:#6b8266}
+.hub-note{background:#f0f3e9;border-left-color:#789174}.hub-mini[open]>summary{color:#345c51;background:#f2f6ef}
+.hero-media{border-color:#dde3d8}.hub-sticky{background:#fafbf8f7;border-color:#dce3d8}footer{background:#f4f5ef!important}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4b806d}
+/* Motion owns disclosure height; no competing legacy entrance animations. */
+.hub-reveal,details[open]>div{animation:none!important}.hub-card,.hub-case img{transition:none!important}
+.hub-card:hover{box-shadow:none!important;transform:none!important}.hub-case:hover img{transform:none}
+.hub-button,.hub-mini>summary{transition:background-color .16s ease!important}.hub-button:hover,.hub-button:active{transform:none!important}
+.hub-mini>summary:after,.hub-fold>summary:after{transition:transform .22s ease}.hub-mini[open]>summary:after,.hub-fold[open]>summary:after{transform:rotate(90deg)}
+.hero-media video{display:block!important}.hero-media>img{display:none!important}
+@media(hover:hover){.hub-button.primary:hover{background:#25483f!important}.hub-mini>summary:hover{background:#f3f6ef}}
+@media(prefers-reduced-motion:reduce){.hub-button,.hub-mini>summary,.hub-mini>summary:after,.hub-fold>summary:after{transition:none!important}}
+/* Hongcheon: forest green, warm paper, field photography. */
+#hero.hub-hero-simple{background:#f5f4ef!important}
+#hero .text-gradient{background:none!important;color:#244d3e!important;-webkit-text-fill-color:#244d3e!important}
+.hub-eyebrow,.hub-link{color:#3d634c!important}.hub-button.primary,.hub-sticky a:not(.kakao){background:#234a39!important}
+.hub-section.soft,#cta{background:#f0f3ed!important}.hub-inline-cta{background:#edf2e8;border-color:#d5dfcc}
+.hub-section h2,.hub-cost-intro h2,.hub-inline-cta strong{color:#243f30!important}
+.hub-note{background:#f3f0e5;border-left-color:#8b9165}.hub-service-icon{color:#60764d}
+.hub-card,.hub-mini,.hub-fold{border-color:#d9dfd3}.hub-mini[open]>summary{background:#f0f4e9;color:#234a39}
+.hub-mini>summary:hover{background:#f3f5ee}.hub-button.primary:hover{background:#183829!important}
+.hero-media{box-shadow:none;border-color:#d6dfce;background:#fff}.hero-media-caption{color:#596c5c!important;background:#fff}
+.hc-field-strip{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 12px 12px;background:#fff}.hc-field-strip a{display:block;color:#3d5443;text-decoration:none;font-size:12px;line-height:1.6}
+.hc-field-strip img{display:block!important;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px}.hc-field-strip span{display:block;padding-top:7px}
+#cases>.hub-wrap>.hub-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+#cases .hub-case>img{height:auto;aspect-ratio:4/3;object-fit:cover}#cases .hub-card{border-top:3px solid #48654b;box-shadow:none}
+.hub-card-links a{min-height:44px;align-items:center}
+@media(max-width:640px){#cases>.hub-wrap>.hub-grid{display:grid!important;grid-template-columns:1fr!important;grid-auto-flow:row!important;grid-auto-columns:auto!important;overflow:visible!important}#cases .hub-case>img{height:auto!important;max-height:280px}#cases .hub-section-heading:after{content:none!important}.hc-field-strip{gap:10px}.hc-field-strip img{aspect-ratio:3/2}}
+/* Hongcheon: cobalt blue, cool gray, white. */
+#hero.hub-hero-simple{background:#f1f5fc!important}
+#hero .text-gradient{background:none!important;color:#2355ba!important;-webkit-text-fill-color:#2355ba!important}
+.hub-eyebrow,.hub-link{color:#2855a5!important}.hub-link:hover{color:#173675!important}
+.hub-button.primary,.hub-sticky a:not(.kakao){background:#2454b8!important;color:#fff!important}
+.hub-section.soft,#cta{background:#f0f3f8!important}.hub-inline-cta{background:#edf3ff!important;border-color:#cddaf2!important}
+.hub-section h2,.hub-cost-intro h2,.hub-inline-cta strong{color:#243754!important}
+.hub-note{background:#edf2fc!important;border-left-color:#4876ce!important}
+.hub-service-icon,.hub-service-list summary:before,.hub-number{color:#3766bd!important}
+.hub-card,.hub-mini,.hub-fold{border-color:#d8e0ed!important}
+.hub-mini[open]>summary{background:#eef3ff!important;color:#2454b8!important}
+.hero-media{border-color:#d6dfef!important}.hero-media-caption{color:#566781!important}
+.hc-field-strip a{color:#2855a5!important}#cases .hub-card{border-top-color:#3567ca!important}
+.hub-sticky{background:#f8fafff7!important;border-color:#d6dfef!important}
+footer{background:#eef2f8!important}footer a{color:#2855a5!important}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#3567ca!important}
+@media(hover:hover){.hub-button.primary:hover{background:#193e8f!important}.hub-mini>summary:hover{background:#eef3ff!important}}

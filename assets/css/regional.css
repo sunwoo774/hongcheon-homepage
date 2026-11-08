@@ -1,0 +1,25 @@
+/* Colors only: layout, typography, shapes and interactions use the Gapyeong UI. */
+:root{--region-primary:#103f50;--region-secondary:#526e63;--region-accent:#a44830;--region-surface:#fffefa;--region-background:#fcf8f0;--region-soft:#edf2ef;--region-border:#d2ded9;--region-text:#263c44;--region-muted:#5f6c70;--region-contact:#dbe7de}
+body{color:var(--region-text);background:var(--region-surface)}
+.hub-section{background:var(--region-surface)}
+.hub-section.soft,#cta{background:var(--region-soft);border-color:var(--region-border)}
+#hero{background:var(--region-background)!important}
+#hero h1,.hub-section h2,.hub-detail h1,.hub-detail h2,.hub-cost-intro h2,.hub-inline-cta strong{color:var(--region-primary)!important}
+.text-gradient{color:var(--region-secondary)!important;-webkit-text-fill-color:var(--region-secondary)!important}
+.hub-eyebrow,.hub-service-icon,.hub-service-list summary:before{color:var(--region-accent)!important}
+.hub-link{color:var(--region-secondary)!important}.hub-link:hover{color:var(--region-primary)!important}
+.hub-intro,.hub-card p,.hub-hero-lead,.hub-origin,.hub-service-summary small,.hub-inline-cta p{color:var(--region-muted)!important}
+.hub-card,.hub-mini,.hub-fold{border-color:var(--region-border);background:var(--region-surface)}
+.hub-fold>summary,.hub-mini>summary,.hub-case-more summary,.hub-faq summary,.hub-card h3{color:var(--region-primary)}
+.hub-facts dd{color:var(--region-text)}.hub-facts dt{color:var(--region-muted)}
+.hub-facts>div,.hub-faq details{border-color:var(--region-border)}
+.hub-button.primary,.hub-sticky a{background:var(--region-primary)!important;color:white}
+.hub-button.kakao,.hub-sticky a.kakao{background:var(--region-contact)!important;color:var(--region-primary)!important}
+.hub-inline-cta{background:var(--region-soft);border-color:var(--region-border)}
+.hero-media{background:var(--region-soft);border-color:var(--region-border)}
+.hero-media-caption{color:var(--region-muted)!important}
+.hub-note{background:var(--region-background);border-color:var(--region-accent);color:var(--region-muted)}
+.hub-sticky{background:var(--region-surface);border-color:var(--region-border)}
+.text-accent{color:var(--region-secondary)!important}.bg-accent{background-color:var(--region-primary)!important}
+footer.bg-zinc-50{background-color:var(--region-soft)!important}footer.border-zinc-200{border-color:var(--region-border)!important}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:var(--region-secondary)!important}
